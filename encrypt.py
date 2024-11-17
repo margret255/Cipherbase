@@ -16,6 +16,7 @@ def encrypt_pdf(pdf_path, key):
     return base64_encoded_data
 
 key = get_random_bytes(16)
+#path to your pdf file
 pdf_path = r""
 
 encoded_pdf = encrypt_pdf(pdf_path, key)
